@@ -21,7 +21,7 @@ const greeting = {
   username: "Hoàng Anh Tiến",
   title: "Hi all, I'm Tiến",
   subTitle: emoji(
-    "A passionate Backend Developer and System Design 🚀 with experience building Backend and Mobile applications with Java / Kotlin / Golang / Spring Boot and some other cool libraries and frameworks."
+    "A passionate Backend Developer and System Design 🚀 with experience building Backend and Mobile applications with Java / Kotlin / Golang / Spring Boot and other libraries and frameworks."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
@@ -62,28 +62,40 @@ const skillsSection = {
 https://fontawesome.com/icons?d=gallery */
   softwareSkills: [
     {
-      skillName: "Java",
+      skillName: "java",
       fontAwesomeClassname: "fab fa-java"
     },
     {
-      skillName: "Golang",
-      fontAwesomeClassname: "fab fa-golang"
+      skillName: "stack-overflow",
+      fontAwesomeClassname: "fab fa-stack-overflow"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      skillName: "git",
+      fontAwesomeClassname: "fab fa-git-alt"
     },
     {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
+      skillName: "github",
+      fontAwesomeClassname: "fab fa-github"
     },
     {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
+      skillName: "gitlab",
+      fontAwesomeClassname: "fab fa-gitlab"
     },
     {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
+      skillName: "apple",
+      fontAwesomeClassname: "fab fa-apple"
+    },
+    {
+      skillName: "linux",
+      fontAwesomeClassname: "fab fa-linux"
+    },
+    {
+      skillName: "dev",
+      fontAwesomeClassname: "fab fa-dev"
+    },
+    {
+      skillName: "slack",
+      fontAwesomeClassname: "fab fa-slack"
     },
     {
       skillName: "android",
@@ -106,12 +118,16 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fas fa-fire"
     },
     {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
+      skillName: "jenkins",
+      fontAwesomeClassname: "fab fa-jenkins"
     },
     {
       skillName: "docker",
       fontAwesomeClassname: "fab fa-docker"
+    },
+    {
+      skillName: "rocket",
+      fontAwesomeClassname: "fa fa-rocket"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -148,19 +164,23 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "Backend",
+      progressPercentage: "80%"
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      Stack: "API",
+      progressPercentage: "90%"
     },
     {
       Stack: "Programming",
       progressPercentage: "60%"
+    },
+    {
+      Stack: "Mobile App",
+      progressPercentage: "35%"
     }
   ],
-  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+  displayCodersrank: true // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
 
 // Work experience section
@@ -197,7 +217,6 @@ const workExperiences = {
 
 /* Your Open Source Section to View Your Github Pinned Projects
 To know how to get github key look at readme.md */
-
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
   display: true // Set false to hide this section, defaults to true
@@ -206,7 +225,7 @@ const openSource = {
 // Some big projects you have worked on
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "SOME COMPANIES AND STARTUPS I HAVE WORKED WITH AND THEIR PROJECTS",
   projects: [
     {
       image: require("./assets/images/smeViettelLogo.png"),
@@ -363,7 +382,6 @@ const podcastSection = {
 
 // Resume Section
 const resumeSection = {
-
   title: "Resume",
   subtitle: emoji(
     "Feel free to download my resume 😅"
@@ -382,7 +400,7 @@ const resumeSection = {
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: emoji("Contact with me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "(+84) 828007853",
