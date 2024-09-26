@@ -363,9 +363,20 @@ const podcastSection = {
 
 // Resume Section
 const resumeSection = {
-  title: "Resume",
-  subtitle: "Feel free to download my resume",
 
+  title: "Resume",
+  subtitle: emoji(
+    "Feel free to download my resume 😅"
+  ),
+
+  talks: [
+    {
+      title: "Build Actions For Google Assistant",
+      subtitle: "Codelab at GDG DevFest Karachi 2019",
+      slides_url: "https://bit.ly/saadpasta-slides",
+      event_url: "https://www.facebook.com/events/2339906106275053/"
+    }
+  ],
   // Please Provide with Your Podcast embeded Link
   display: true // Set false to hide this section, defaults to true
 };
