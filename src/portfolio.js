@@ -375,7 +375,8 @@ const podcastSection = {
 
   // Please Provide with Your Podcast embeded Link
   podcast: [
-    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
+    "https://podcasters.spotify.com/pod/show/hong-anh-tin/embed/episodes/Hy-Trao-Cho-Anh---Sn-Tng-MTP-e2ot8tq/a-abi3ri6",
+    "https://podcasters.spotify.com/pod/show/hong-anh-tin5/embed/episodes/Em-Ca-Ngy-Hm-Qua-e2otaus/a-abi3tr1"
   ],
   display: true // Set false to hide this section, defaults to true
 };
