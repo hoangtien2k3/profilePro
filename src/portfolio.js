@@ -21,10 +21,10 @@ const greeting = {
   username: "Hoàng Anh Tiến",
   title: "Hi all, I'm Tiến",
   subTitle: emoji(
-    "A passionate Backend Developer and System Design 🚀 with experience building Backend and Mobile applications with Java / Kotlin / Golang / Spring Boot and other libraries and frameworks."
+    "A passionate Backend Developer and System Design 🚀 with experience building Backend and Mobile applications with Java / Golang / Kotlin / Spring Boot and other libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1PMmjWNC5bx6Fvtq8Pc235pZmRMa9o474/view", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -94,10 +94,6 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-dev"
     },
     {
-      skillName: "slack",
-      fontAwesomeClassname: "fab fa-slack"
-    },
-    {
       skillName: "android",
       fontAwesomeClassname: "fab fa-android"
     },
@@ -124,10 +120,6 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "docker",
       fontAwesomeClassname: "fab fa-docker"
-    },
-    {
-      skillName: "rocket",
-      fontAwesomeClassname: "fa fa-rocket"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -147,14 +139,6 @@ const educationInfo = {
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
       ]
-    },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
   ]
 };
@@ -165,11 +149,11 @@ const techStack = {
   experience: [
     {
       Stack: "Backend",
-      progressPercentage: "80%"
+      progressPercentage: "90%"
     },
     {
       Stack: "API",
-      progressPercentage: "90%"
+      progressPercentage: "85%"
     },
     {
       Stack: "Programming",
@@ -188,14 +172,14 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Backend Developer",
+      role: "Backend Developer OutSource",
       company: "Viettel Telecom",
       companylogo: require("./assets/images/viettelTelecomLogo.png"),
       date: "May 2024 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      desc: "Participate in the project to develop Order project, services at Viettel",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Order Project using Java8 and Oracle",
+        "Sme Hub using Java11 and MariaDB and Mysql, using reactive programming"
       ]
     },
     {
@@ -203,14 +187,22 @@ const workExperiences = {
       company: "TLH Viet Nam",
       companylogo: require("./assets/images/tlhVietNamLogo.png"),
       date: "Feb 2024 – May 2024",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      desc: "Participate in projects and do web backend with Java, kafka, k8s, docker ...",
+      descBullets: [
+        "Using Java17 and Java11, core frameword spring boot, spring data jpa",
+        "Learn about spring boot and spring webflux (reactor-core)"
+      ]
     },
     {
       role: "Backend Developer Intern",
       company: "Cen Group",
       companylogo: require("./assets/images/cenGroupLogo.png"),
       date: "Sep 2023 – Feb 2024",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      desc: "Vietnam's leading real estate group, owning a diverse ecosystem: Real Estate & Startup Investment ...",
+      descBullets: [
+        "Using Java and Kotlin to develop golf course booking app: Fastee App",
+        "Learn and get guided backend project using python"
+      ]
     }
   ]
 };
@@ -230,7 +222,7 @@ const bigProjects = {
     {
       image: require("./assets/images/smeViettelLogo.png"),
       projectName: "Viettel SME",
-      projectDesc: "Mobile service, providing all packages to mobile network",
+      projectDesc: "Service connection: vContract, Invoice, Mysign, Social Insurance, CA ...",
       footerLink: [
         {
           name: "Visit Website",
@@ -242,7 +234,7 @@ const bigProjects = {
     {
       image: require("./assets/images/viettelLogo.png"),
       projectName: "Viettel Telecom",
-      projectDesc: "Mobile service, providing all packages to mobile network",
+      projectDesc: "Network services and sim numbers for mobile devices",
       footerLink: [
         {
           name: "Visit Website",
@@ -359,10 +351,10 @@ const talkSection = {
 
   talks: [
     {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
+      title: "Build a fanpage about programming",
+      subtitle: "Share knowledge, receive code",
+      slides_url: "https://github.com/hoangtien2k3/programming-books",
+      event_url: "https://www.facebook.com/hoangtien2k3"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -370,13 +362,13 @@ const talkSection = {
 
 // Podcast Section
 const podcastSection = {
-  title: emoji("Podcast 🎙️"),
-  subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
+  title: emoji("Favorite Song 🎙️"),
+  subtitle: "I AM A TRUE SKE, I ALWAYS LISTEN TO MTP MUSIC",
 
   // Please Provide with Your Podcast embeded Link
   podcast: [
-    "https://podcasters.spotify.com/pod/show/hong-anh-tin/embed/episodes/Hy-Trao-Cho-Anh---Sn-Tng-MTP-e2ot8tq/a-abi3ri6",
-    "https://podcasters.spotify.com/pod/show/hong-anh-tin5/embed/episodes/Em-Ca-Ngy-Hm-Qua-e2otaus/a-abi3tr1"
+    "https://zingmp3.vn/embed/song/ZW69BZOF?start=false%20frameborder=%220%22%20allowfullscreen=%22true%22",
+    "https://zingmp3.vn/embed/song/ZZEEOWEW?start=false%20frameborder=%220%22%20allowfullscreen=%22true%22"
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -410,7 +402,7 @@ const contactInfo = {
 
 // Twitter Section
 const twitterDetails = {
-  userName: "@hoangtien_2k3", //Replace "twitter" with your twitter username without @
+  userName: "hoangtien_2k3", //Replace "twitter" with your twitter username without @
   display: true // Set true to display this section, defaults to false
 };
 
