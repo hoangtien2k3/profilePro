@@ -11,9 +11,7 @@ export default function Footer() {
       <div className="footer-div">
         <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
           {emoji("Made with ❤️ by ")}
-          <a href="https://github.com/hoangtien2k3">
-            @hoangtien2k3
-          </a>
+          <a href="https://github.com/hoangtien2k3">@hoangtien2k3</a>
         </p>
       </div>
     </Fade>

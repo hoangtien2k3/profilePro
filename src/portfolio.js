@@ -36,7 +36,8 @@ const socialMediaLinks = {
   gitlab: "https://gitlab.com/hoangtien2k3",
   facebook: "https://www.facebook.com/hoangtien2k3.vn",
   medium: "https://medium.com/@hoangtien2k3",
-  stackoverflow: "https://stackoverflow.com/users/17357931/hoangtien2k3?tab=profile",
+  stackoverflow:
+    "https://stackoverflow.com/users/17357931/hoangtien2k3?tab=profile",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -222,7 +223,8 @@ const bigProjects = {
     {
       image: require("./assets/images/smeViettelLogo.png"),
       projectName: "Viettel SME",
-      projectDesc: "Service connection: vContract, Invoice, Mysign, Social Insurance, CA ...",
+      projectDesc:
+        "Service connection: vContract, Invoice, Mysign, Social Insurance, CA ...",
       footerLink: [
         {
           name: "Visit Website",
@@ -377,9 +379,7 @@ const podcastSection = {
 // Resume Section
 const resumeSection = {
   title: "Resume",
-  subtitle: emoji(
-    "Feel free to download my resume 😅"
-  ),
+  subtitle: emoji("Feel free to download my resume 😅"),
 
   talks: [
     {
