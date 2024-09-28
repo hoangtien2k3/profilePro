@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-undef
 fs = require("fs");
 const https = require("https");
 process = require("process");
@@ -79,6 +80,7 @@ if (USE_GITHUB_DATA === "true") {
       data += d;
     });
     res.on("end", () => {
+      // eslint-disable-next-line no-undef
       fs.writeFile("./public/profile.json", data, function (err) {
         if (err) return console.log(err);
         console.log("saved file to public/profile.json");
@@ -115,6 +117,7 @@ if (MEDIUM_USERNAME !== undefined) {
       mediumData += d;
     });
     res.on("end", () => {
+      // eslint-disable-next-line no-undef
       fs.writeFile("./public/blogs.json", mediumData, function (err) {
         if (err) return console.log(err);
         console.log("saved file to public/blogs.json");

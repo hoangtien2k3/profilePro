@@ -1,16 +1,15 @@
-# Software Developer Folio ⚡️ [![GitHub](https://img.shields.io/github/license/saadpasta/developer-portfolio?color=blue)](https://github.com/hoangtien2k3/profilePro/blob/master/LICENSE) [![GitHub stars](https://img.shields.io/github/stars/hoangtien2k3/profilePro)](https://github.com/hoangtien2k3/profilePro/stargazers) [![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors)
+# Software Developer ProfilePro ⚡️ [![GitHub](https://img.shields.io/github/license/saadpasta/developer-portfolio?color=blue)](https://github.com/hoangtien2k3/profilePro/blob/master/LICENSE) [![GitHub stars](https://img.shields.io/github/stars/hoangtien2k3/profilePro)](https://github.com/hoangtien2k3/profilePro/stargazers) [![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors)
 
 ## A clean, beautiful and responsive portfolio template for Developers!
-
 
 Just change `src/portfolio.js` to get your personal portfolio. Customize portfolio theme by using your own color scheme
 globally in the  `src/_globalColor.scss` file. Feel free to use it as-is or personalize it as much as you want.
 
 If you'd like to **contribute** and make this much better for other users, have a look
-at [Issues](https://github.com/saadpasta/developerFolio/issues).
+at [Issues](https://github.com/hoangtien2k3/profilePro/issues).
 
 Created something awesome for your fork of the portfolio and want to share it? Feel free to open
-a [pull request](https://github.com/saadpasta/developerFolio/pulls).
+a [pull request](https://github.com/hoangtien2k3/profilePro/pulls).
 
 ## Table of Contents
 
@@ -42,7 +41,7 @@ a [pull request](https://github.com/saadpasta/developerFolio/pulls).
 ✔️ Twitter Timeline\
 ✔️ GitHub Profile
 
-To view a live example, **[click here](https://developerfolio.js.org/)**.
+To view a live example, **[click here](https://hoangtien2k3.github.io/)**.
 
 ## Getting Started
 
@@ -68,14 +67,14 @@ git@2.17.1 or higher
 
 ## How To Use
 
-From your command line, clone and run developerFolio:
+From your command line, clone and run profilePro:
 
 ```bash
 # Clone this repository
 git clone https://github.com/hoangtien2k3/profilePro.git
 
 # Go into the repository
-cd developerFolio
+cd profilePro
 
 # Setup default environment variables
 
@@ -91,7 +90,7 @@ npm install
 npm start
 ```
 
-## Linking Portfolio to GitHub
+## Linking ProfilePro to GitHub
 
 Generate a classic GitHub personal access token following
 these [instructions](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token#creating-a-personal-access-token-classic) (
@@ -105,7 +104,7 @@ Note: Configuring environment variables before deploying your portfolio is highl
 on API data.
 
 ```bash
-- DeveloperFolio
+- profilePro
   - node_modules
   - public
   - src
@@ -138,7 +137,7 @@ these [instructions](https://docs.github.com/en/enterprise/2.13/user/articles/pi
 ![ERROR](https://i.imgur.com/Hj6mu1K.png)
 
 If the above solution still doesn't work, visit
-the [wiki page](https://github.com/saadpasta/developerFolio/wiki/Github-Setup-For-Open-Source-Projects).
+the [wiki page](https://github.com/hoangtien2k3/profilePro/wiki/Github-Setup-For-Open-Source-Projects).
 
 ## Linking blogs section to Medium
 
@@ -253,11 +252,11 @@ to do that.
 
 This section guides you to deploy your portfolio on GitHub pages.
 
-- Navigate to `package.json` and enter your domain name instead of `https://developerfolio.js.org/` in `homepage`
+- Navigate to `package.json` and enter your domain name instead of `https://hoangtien2k3.github.io/` in `homepage`
   variable. For example, if you want your site to be `https://<your-username>.github.io/profilePro`, add the same to
   the homepage section of `package.json`.
 
-- In short you can also add `/devloperFolio` to `package.json` as both are exactly same. Upon doing so, you
+- In short you can also add `/profilePro` to `package.json` as both are exactly same. Upon doing so, you
   tell `create-react-app` to add the path assets accordingly.
 
 - Optionally, configure the domain. You can configure a custom domain with GitHub Pages by adding a `CNAME` file to
@@ -271,7 +270,7 @@ This section guides you to deploy your portfolio on GitHub pages.
 You could also host directly with Netlify by linking your own repository.
 
 [![Deploy To Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/hoangtien2k3/profilePro)
-    
+
 For more information, read [hosting on Netlify](https://create-react-app.dev/docs/deployment/#netlify).
 
 ## Technologies Used
