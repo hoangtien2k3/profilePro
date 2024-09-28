@@ -21,7 +21,7 @@ const greeting = {
   username: "Hoàng Anh Tiến",
   title: "Hi all, I'm Tiến",
   subTitle: emoji(
-    "A passionate Backend Developer and System Design 🚀 with experience building Backend and Mobile applications with Java / Golang / Kotlin / Spring Boot and other libraries and frameworks."
+    "A passionate Backend Developer and System Design 🚀 with experience building Backend with Java | Golang | Kotlin | Spring Boot | Docker | K8s and other Libraries and Frameworks."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1PMmjWNC5bx6Fvtq8Pc235pZmRMa9o474/view", // Set to empty to hide the button
@@ -323,20 +323,20 @@ const achievementSection = {
 const blogSection = {
   title: "Blogs",
   subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
+    "WITH LOVE FOR DEVELOPING COOL STUFF, I LOVE TO WRITE AND TEACH OTHERS WHAT I HAVE LEARNT.",
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+      url: "https://viblo.asia/p/stream-api-trong-java-8-Ny0VGdKz4PA",
+      title: "Stream API in Java 8",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+        "Stream is a new Java object introduced from Java 8, making operations on collections and arrays easier and more optimal."
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
+      url: "https://viblo.asia/p/java-inner-class-PAoJeZoNL1j",
+      title: "What are Java Inner Classes (Nested Classes)?",
       description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+        "Java Inner Class is a class that is contained within another class. It is used to solve problems associated with the inner class, and provides a flexible way to access the members of the outer class."
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -363,12 +363,13 @@ const talkSection = {
 // Podcast Section
 const podcastSection = {
   title: emoji("Favorite Song 🎙️"),
-  subtitle: "I AM A TRUE SKE, I ALWAYS LISTEN TO MTP MUSIC",
+  subtitle: "I AM A TRUE SKY, I ALWAYS LISTEN TO MTP MUSIC",
 
   // Please Provide with Your Podcast embeded Link
   podcast: [
     "https://zingmp3.vn/embed/song/ZW69BZOF?start=false%20frameborder=%220%22%20allowfullscreen=%22true%22",
-    "https://zingmp3.vn/embed/song/ZZEEOWEW?start=false%20frameborder=%220%22%20allowfullscreen=%22true%22"
+    "https://zingmp3.vn/embed/song/ZZEEOWEW?start=false%20frameborder=%220%22%20allowfullscreen=%22true%22",
+    "https://zingmp3.vn/embed/song/ZWZBZC9F?start=false%20frameborder=%220%22%20allowfullscreen=%22true%22"
   ],
   display: true // Set false to hide this section, defaults to true
 };
