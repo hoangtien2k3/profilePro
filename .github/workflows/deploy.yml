@@ -1,43 +1,42 @@
-name: Build and Deploy
-env:
-  CI: false
-  GITHUB_USERNAME: ${{ github.repository_owner }}
-  REACT_APP_GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }} # This is automatically set by Github Actions
-  USE_GITHUB_DATA: "true"
-  #MEDIUM_USERNAME: "hoangtien2k3" # Change this to your medium username
+name: Deploy
 on:
-  workflow_dispatch:
   push:
-    branches:
-      - master
-  schedule:
-    - cron: "0 12 * * 1" # see https://docs.github.com/en/actions/reference/events-that-trigger-workflows#scheduled-events
+    branches: gh-pages
+  pull_request:
+    branches: gh-pages
+
 jobs:
-  build-and-deploy:
+  deploy:
+    name: Deploy
     runs-on: ubuntu-latest
+
+    permissions:
+      id-token: write # Needed for auth with Deno Deploy
+      contents: read # Needed to clone the repository
+
     steps:
-      - name: Checkout ðï¸
-        uses: actions/checkout@v3 # If you're using actions/checkout@v3 you must set persist-credentials to false in most cases for the deployment to work correctly.
-        with:
-          persist-credentials: false
+      - name: Clone repository
+        uses: actions/checkout@v4
 
-      - name: Setup Node.js ð§
-        uses: actions/setup-node@v3.8.1
+      - name: Install Deno
+        uses: denoland/setup-deno@v1
         with:
-          node-version: 18.x
+          deno-version: v1.x
 
-      - name: Update npm ð
-        run: npm install -g npm@latest
-
-      - name: Install and Build ð§ # Build the Project
-        run: |
-          npm install
-          npm run build
-      - name: Deploy ð
-        uses: JamesIves/github-pages-deploy-action@v4
+      - name: Install Node.js
+        uses: actions/setup-node@v4
         with:
-          token : ${{ secrets.MY_GITHUB_TOKEN }} # This is provided by GitHub.
-          branch: gh-pages # The branch the action should deploy to.
-          folder: build # The folder the action should deploy.
-          clean: true
-          force: true
+          node-version: lts/*
+
+      - name: Install step
+        run: "profilePro"
+
+      - name: Build step
+        run: "profilePro"
+
+      - name: Upload to Deno Deploy
+        uses: denoland/deployctl@v1
+        with:
+          project: "hoangtien2k3"
+          entrypoint: "profilePro"
+          root: "profilePro"
